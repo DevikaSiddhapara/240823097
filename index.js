@@ -11,4 +11,7 @@ else{
     console.log("Number is odd")
 }
 
-const a=
+const a=10
+const b=20
+
+console.log(a)
