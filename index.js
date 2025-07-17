@@ -64,5 +64,35 @@ for(i=1;i<=10;i++)
 let num1 = 123456789;
 let result = num1.toString().split('').reverse().join('');
 console.log(result);
+//===================================================================================
+
+
+let num2 = 121;
+let palindrome = num2.toString().split('').reverse().join('');
+if (num2.toString() === palindrome) {
+    console.log(num2 + " is a palindrome number");
+}
+else{
+    console.log(num2 + " is not a palindrome number");
+}
+
+//===================================================================================
+
+let num3 = 29;
+let isPrime = true;
+for (let i = 2; i <= num-1; i++) {
+    if (num3 % i === 0) {
+        isPrime = false;
+        break;
+    }
+}
+if (isPrime) {
+    console.log(num3 + " is a prime number");
+}
+else {
+    console.log(num3 + " is not a prime number");
+}
+
+
 
 
